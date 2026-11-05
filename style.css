@@ -1,0 +1,62 @@
+.redaction-50-regular {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.redaction-50-bold {
+  font-family: "Redaction 50", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.redaction-50-regular-italic {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb #0000ff;
+}
+html, body, *{
+    font-size: 20px;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: #0a2341;
+}
+div{
+    width: 50rem;
+    height: 25rem;
+    background-color:#f3f5ff;
+
+
+    margin: 2.5rem 5rem;
+    text-align: center;
+
+
+    padding: 5rem;
+}
+.card{
+    background-color: #182718;
+    display: flex;
+    color: #ffffff;
+    height: 50rem;
+    width: 75rem;
+}
+.card-title {
+    background-color: #011d03;
+    text-align: center;
+    color: #ffffff;
+}
+#test {
+    background-color: #0000ff;
+    color:#d63cb5
+}
