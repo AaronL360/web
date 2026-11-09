@@ -37,23 +37,31 @@ padding: 0;
 body{
     background-color: #0a2341;
 }
+/* frontpage */
 div{
     width: 50rem;
     height: 25rem;
     background-color:#f3f5ff;
-
-
     margin: 2.5rem 5rem;
-    text-align: center;
-
-
+    text-align: left;
     padding: 5rem;
 }
 .card{
     background-color: #182718;
     color: #ffffff;
-    height: 60rem;
-    width: 30rem;
+    height: 20rem;
+    width: 15rem;
+      display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+/*     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 6rem 10rem;
+    border-radius: 0.8rem;
+    align-items: center; */
 }
 .card img {
       width: 100%;
@@ -64,4 +72,5 @@ div{
     background-color: #172e18;
     text-align: center;
     color: #ffffff;
+
 }
