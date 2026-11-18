@@ -9,7 +9,7 @@ const clothing = [
   {
     name: "T-Shirt",
     group: "Top",
-    price: 12.9,
+    price: 12.99,
     image: "img",
     popularity: 3,
   },
