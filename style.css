@@ -51,12 +51,14 @@ body{
     h1 {
     font-size: 110px;
 }
-    bottom: 80px;
+    bottom: 95px;
     padding: 3rem;
     display: flex;
     justify-content: space-around;
     border-radius: 25px;
     background-color: #f0f3f8;
+        border-radius: 40px;
+    border: 5px solid #87b3e6;
 }
 
 .card {
@@ -101,4 +103,3 @@ justify-content: space-around;
     color: #ffffff;
 
 }
-
