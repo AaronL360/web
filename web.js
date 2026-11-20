@@ -30,7 +30,7 @@ const clothing = [
   {
     name: "Tank Top",
     group: "Top",
-    price: 20.9,
+    price: 14.9,
     image: "img",
     popularity: 7,
   },
@@ -100,7 +100,7 @@ const clothing = [
   {
     name: "Flannel",
     group: "top",
-    price: 11.9,
+    price: 29.9,
     image: "img",
     popularity: 15,
   },
