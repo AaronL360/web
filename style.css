@@ -43,17 +43,30 @@ body{
 }
 /* frontpage */
 .hero{
-    width: 85rem;
-    height: 25rem;
+    width: 200vh;
+    height: 73vh;
     background-color:#f3f5ff;
     margin: 2.5rem 5rem;
     text-align: center;
     position: relative;
 
     h1 {
-    font-size: 110px;
+    font-size: 14vh;
     text-shadow: 0 2px 8px rgba(0, 45, 248, 0.712);
-}
+    }
+    h3{
+      font-size: 4vh;
+    }
+    h6{
+      font-size: 3vh;
+    }
+    p{
+      font-size: 3.25vh;
+    }
+    button{
+      font-size: 2.5vh;
+    }
+
     bottom: 95px;
     padding: 3rem;
     display: flex;
@@ -120,12 +133,19 @@ justify-content: space-around;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  height: 85vh;
+  width: 225vh;
 }
 .checkout{
+    border-radius: 15px;
+  h1{
+    font-size: 7rem;
+  }
  text-align: center;
  background-color:#f3f5ff;
  color:#0000ff;
+ height: 30rem;
+ width: 80rem;
 }
 .coupon {
 
@@ -134,11 +154,12 @@ justify-content: space-around;
   align-items: center;
 }
 .card-btn {
+  box-shadow: #284970;
   height: 2rem;
   padding: 0 1.6rem;
-  background-color: #0c4e0a;
+  background-color: #31642f;
   color: #edf0ff;
-  border: 1px solid #002503;
+  border: 1px solid #06410b91;
   border-radius: 0.4rem;
   font-size: 1rem;
   font-weight: 600px;
@@ -146,5 +167,5 @@ justify-content: space-around;
   transition: all 0.3s;
 }
 .card-btn:hover {
-  background-color: #02300a;
+  background-color: #274e2d;
 }
